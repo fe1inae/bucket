@@ -1,5 +1,5 @@
 {
-    "version": "5.4.4",
+    "version": "5.4.2",
     "description": "A powerful, efficient, lightweight, embeddable scripting language",
     "homepage": "http://www.lua.org",
     "license": "MIT",
@@ -38,8 +38,8 @@
         ]
     ],
     "env_set": {
-        "LUA_PATH": "$scoopdir/persist/luarocks/rocks/share/lua/5.4/?.lua;$scoopdir/persist/luarocks/rocks/share/lua/5.4/?/?.lua",
-        "LUA_CPATH": "$scoopdir/persist/luarocks/rocks/lib/lua/5.4/?.dll;$scoopdir/persist/luarocks/rocks/share/lua/5.4/?/?.dll"
+        "LUA_PATH":  ".\\?.lua;.\\?\\init.lua;$scoopdir\\persist\\luarocks\\rocks\\share\\lua\\5.4\\?.lua;$scoopdir\\persist\\luarocks\\rocks\\share\\lua\\5.4\\?\\init.lua",
+        "LUA_CPATH": ".\\?.dll;.\\?\\init.dll;$scoopdir\\persist\\luarocks\\rocks\\lib\\lua\\5.4\\?.dll;$scoopdir\\persist\\luarocks\\rocks\\lib\\lua\\5.4\\?\\init.dll"
     },
     "checkver": {
         "url": "http://luabinaries.sourceforge.net/download.html",
